@@ -1,0 +1,18 @@
+*/
+Crea un objeto JSON que represente la información de una receta de cocina,
+ incluyendo el nombre de la receta, los ingredientes y los pasos a seguir.
+ */
+
+ {
+    "nombre":"Fideos al limon con atun",
+    "ingredientes":["Lomitos de Atun","Limon","Fideos Codito","Aji Molido","Manteca"],
+    "instructivo":{
+        "primerPaso":"Hervir los fideos 8-9 min",
+        "segundoPaso":"Saltear en fuego bajo el aji molido, ajo en laminas, ralladura de 1/2 limon y manteca",
+        "tercerPaso":"Llevar los fideos con un poco de agua de coccion a la sarten con la manteca",
+        "cuartoPaso":"Agregar el jugo de medio limon y una lata de atun",
+        "quintoPaso":"Servir"
+
+    }
+
+ }

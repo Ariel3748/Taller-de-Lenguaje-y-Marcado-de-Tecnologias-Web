@@ -1,0 +1,14 @@
+*/
+Crea un objeto JSON que represente la información de un estudiante con los
+ siguientes datos: nombre, edad, carrera y lista de cursos.
+ */
+
+ {
+    "nombre":"Luis Miguel Gallego Basteri",
+    "edad":"54",
+    "carrera":"Ingenieria de Sonido",
+    "cursos":["Canto lirico","Soldadura 1","Soldadura 2"]
+    
+
+
+ }

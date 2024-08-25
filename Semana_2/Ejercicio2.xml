@@ -1,0 +1,74 @@
+<!-- Crea un documento XML que represente la estructura de un menú de un restaurante. Debe incluir secciones para entradas, platos principales, postres y bebidas, cada una con varios elementos que representen los ítems del menú.-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+    <entradas>
+        <plato>
+            <nombre>Ensalada</nombre>
+            <ingredientes>Lechuga,Tomate,Cebolla</ingredientes>
+            <costo>4500</costo>
+        </plato>
+        <plato>
+            <nombre>Rabas</nombre>
+            <ingredientes>Calamar,Harina,Limon</ingredientes>
+            <costo>9000</costo>
+        </plato>
+        <plato>
+            <nombre>Achuras</nombre>
+            <ingredientes>Chinchulin,Molleja,Chorizo,Morcilla</ingredientes>
+            <costo>12500</costo>
+        </plato>
+    </entradas>
+    <principal>
+        <plato>
+            <nombre>Milanesa Napolitana</nombre>
+            <ingredientes>Milanesa,Salsa,Queso,Papas Fritas</ingredientes>
+            <costo>10500</costo>
+        </plato>
+        <plato>
+            <nombre>Sushi</nombre>
+            <ingredientes>Arroz,Salmon,Algas,Salsa de Soja</ingredientes>
+            <costo>14500</costo>
+        </plato>
+        <plato>
+            <nombre>Pollo a la Mostaza</nombre>
+            <ingredientes>Pollo,Salsa Mostaza,Papas a la Española</ingredientes>
+            <costo>9500</costo>
+        </plato>
+    </principal>
+    <bebidas>
+        <plato>
+            <nombre>Gaseosa</nombre>
+            <ingredientes>Gaseosa</ingredientes>
+            <costo>1500</costo>
+        </plato>
+        <plato>
+            <nombre>Agua Saborizada</nombre>
+            <ingredientes>Agua Saborizada</ingredientes>
+            <costo>1000</costo>
+        </plato>
+        <plato>
+            <nombre>Vino Tinto</nombre>
+            <ingredientes>Vino Tinto</ingredientes>
+            <costo>4500</costo>
+        </plato>
+    </bebidas>
+    <postre>
+    <plato>
+            <nombre>Volcan Dulce de Leche</nombre>
+            <ingredientes>Brownie, Dulce de Leche</ingredientes>
+            <costo>8000</costo>
+        </plato>
+        <plato>
+            <nombre>Banana Split</nombre>
+            <ingredientes>Banana,Helado de Crema,Dulce de Leche,Chocolate</ingredientes>
+            <costo>12000</costo>
+        </plato>
+        <plato>
+            <nombre>Flan</nombre>
+            <ingredientes>Flan, Dulce de Leche</ingredientes>
+            <costo>6500</costo>
+        </plato>
+    </postre>
+</menu>

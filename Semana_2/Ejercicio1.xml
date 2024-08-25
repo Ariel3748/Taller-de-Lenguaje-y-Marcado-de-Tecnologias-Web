@@ -1,0 +1,9 @@
+<!-- título, autor, año de publicación y género. -->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<libro> 
+    <titulo>1984</titulo>
+    <autor>George Orwell</autor>
+    <anoDePublicacion>1949</anoDePublicacion>
+    <genero>Ciencia Ficcion</genero>
+</libro>

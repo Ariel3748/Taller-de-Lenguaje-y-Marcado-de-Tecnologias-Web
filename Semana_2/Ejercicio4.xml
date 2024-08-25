@@ -1,0 +1,74 @@
+<!-- Crea un documento XML que represente la información de una 
+tienda en línea, incluyendo categorías de productos, nombres de 
+productos, precios y descripciones. La tienda debe tener al menos dos 
+categorías y varios productos en ellas.
+-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <ropa>
+        <sombreros>
+            <articulo>
+                <itemId>001</itemID>
+                <nombre>Gorra</nombre>
+                <color>Rojo</color>
+                <tela>Algodon</tela>
+            </articulo>
+            <articulo>
+                <itemId>002</itemID>
+                <nombre>Piluso</nombre>
+                <color>Negro</color>
+                <tela>Algodon</tela>
+            </articulo>
+            <articulo>
+                <itemId>003</itemID>
+                <nombre>Sombrero</nombre>
+                <color>Marron</color>
+                <tela>Paja</tela>
+            </articulo>
+        </sombreros>
+        <torso>
+            <articulo>
+                <itemId>004</itemID>
+                <nombre>Remera</nombre>
+                <color>Multicolor</color>
+                <tela>Algodon</tela>
+            </articulo>
+            <articulo>
+                <itemId>005</itemID>
+                <nombre>Buzo</nombre>
+                <color>Negro</color>
+                <tela>Lycra</tela>
+            </articulo>
+            <articulo>
+                <itemId>006</itemID>
+                <nombre>Saco</nombre>
+                <color>Gris</color>
+                <tela>Algodon</tela>
+            </articulo>
+        </torso>
+        <pantalon>
+            <articulo>
+                <itemId>007</itemID>
+                <nombre>Vaquero</nombre>
+                <color>Negro</color>
+                <tela>Jean</tela>
+            </articulo>
+            <articulo>
+                <itemId>008</itemID>
+                <nombre>Pollera</nombre>
+                <color>Verde</color>
+                <tela>Algodon</tela>
+            </articulo>
+            <articulo>
+                <itemId>009</itemID>
+                <nombre>Short</nombre>
+                <color>Negro</color>
+                <tela>Deportiva</tela>
+            </articulo>
+        </pantalon>
+</ropa>
+</catalogo>
+
+<!--Me olvide de ponerle precio a las cosas -->

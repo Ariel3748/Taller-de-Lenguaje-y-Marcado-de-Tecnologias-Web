@@ -1,0 +1,48 @@
+Crea un objeto JSON que represente la información de un catálogo de películas de un servicio de streaming,
+ incluyendo géneros, títulos, directores y sinopsis. El catálogo debe tener al menos dos géneros y varios títulos
+  en ellos.
+
+{
+    "generos":{
+        "terror":{
+            "pelicula":{
+                "nombre":"IT",
+                "director":"Stiphen King",
+                "sinopsis":"Varios niños de una pequeña ciudad del estado de Maine se alían
+                 para combatir a una entidad diabólica que adopta la forma de un payaso y desde
+                  hace mucho tiempo emerge cada 27 años para saciarse de sangre infantil."
+            },
+            "pelicula":{
+                "nombre":"El Resplandor",
+                "director":"Stanley Kubrick",
+                "sinopsis":"Jack Torrance se convierte en cuidador de invierno en el Hotel Overlook, 
+                en Colorado, con la esperanza de vencer su bloqueo con la escritura. Donde pasaran cosas extrañas"
+            },
+            "pelicula":{
+                "nombre":"El projecto de la Bruja de Blair",
+                "director":"Eduardo Sánchez, Daniel Myrick",
+                "sinopsis":"Tres cineastas trataron de grabar un documental en 1994 sobre
+                 la leyenda local de la bruja de Blair.
+                 Nunca se volvió a saber de ellos.Tiempo después se encontró la cámara con la que rodaron y 
+                 en la que se mostraban los terroríficos acontecimientos",
+            }
+        },
+        "suspenso":{
+            "pelicula":{
+                "nombre":"Figth Club",
+                "director":"David Fincher",
+                "sinopsis":"Un empleado de oficina insomne, harto de su vida, se cruza con un vendedor peculiar.
+                 Ambos crean un club de lucha clandestino como forma 
+                de terapia y, poco a poco, la organización crece y sus objetivos toman otro rumbo."
+            },
+            "pelicula":{
+                "nombre":"se7en los siete pecados capitales",
+                "director":"David Fincher",
+                "sinopsis":"El veterano teniente Somerset está a punto de jubilarse y 
+                ser reemplazado por el impulsivo detective David Mills. Ambos tendrán que 
+                colaborar en la resolución de unos asesinatos cometidos por un psicópata que 
+                se basa en los siete pecados capitales."
+            }
+        }
+    }
+}
