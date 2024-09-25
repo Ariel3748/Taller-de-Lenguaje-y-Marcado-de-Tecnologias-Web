@@ -1,0 +1,53 @@
+/*
+Modificar el título para que quede centrado y con un tamaño mayor. También agregarle un
+color de fondo
+*/
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color: #B4D2E7;
+
+}
+
+h1 + p {
+    text-align: center;
+    font-size: 25px;
+    background-color: #B4D2E7;
+}
+
+/*
+Modificar el tamaño de las imágenes para que queden de tamaños similares.
+*/
+
+img {
+    height: 50%;
+    width: 25%;
+}
+
+/*
+Modificar el estilo de 'El imperio' y 'Los rebeldes' para que se diferencien de una manera
+más clara (ambos grupos entre sí, y también los ítems internos de cada uno). Utilizando
+colores para el fondo y para el texto
+*/
+
+.imperio {
+    background-color: #C7253E;
+
+}
+
+.imperio h2, ul li {
+    font-family: Papyrus;
+}
+
+.rebeldes{
+    background-color: aquamarine;
+
+}
+
+.rebeldes h2, ul li{
+    font-family: "Lucida Console";
+}
+
+body {
+    background-color: gray;
+}
