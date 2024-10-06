@@ -1,0 +1,196 @@
+*{
+    background-color: #323232;
+    color: white;
+    font-family: agency FB, Arial, Helvetica, sans-serif ;
+    text-align: center;
+}
+
+header{
+    background-color: #FFAC41;
+    display: flex;
+    
+    
+}
+
+h1{
+    background-color: #FFAC41;
+    align-items: center;
+    font-family: Punk, Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    font-weight: 50;
+    letter-spacing: 1mm;
+    margin-left: 10px;
+    color: black;
+}
+
+h2{
+    font-size: 55px;
+    color: #F48900;
+}
+
+#Logo{
+    
+    margin-left: 265px;
+}
+
+@font-face {
+
+    font-family: Punk;
+    
+    src: url(./font/Punk.ttf);
+    
+    }
+
+nav{
+    background-color: #1E1E1E;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+
+}
+
+nav a, .link-bajo {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav a:hover, .link-bajo:hover, button:hover {
+    color: #F48900; 
+}
+
+p {
+    font-size: 28px;
+    line-height: 50px;
+}
+
+#quienes-somos h2{
+    font-size: 65px;
+
+}
+
+
+#clases div{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.link-bajo{
+    font-size: 27px;    
+}
+
+
+#banda-personal p{
+    font-size: 28px;
+}
+
+#testimonios div, #egresados-de-canto{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    text-align: center;
+    
+
+    
+}
+
+
+#testimonios div article img, #egresados-de-canto article img{
+    height: 200px;
+}
+
+#testimonios div article p{
+    font-size: 20px;
+    line-height: 35px;
+
+}
+
+aside{
+    text-align: center;
+    font-size: 30px;
+}
+
+#publicidad-audio audio{
+    background-color: #F48900;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#pet-friendly{
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+
+footer{
+    background-color: #1E1E1E;
+
+
+}
+
+footer p{
+    background-color: transparent;
+    font-size: 20px;
+}
+
+#clases-de-canto{
+    height: 600px;
+    width: 1200px;
+    margin: auto;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 40px;
+    color: #F48900;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left: 0; 
+}
+
+ol {
+    list-style-position: inside;
+    padding-left: 0; 
+}
+
+li{
+    font-size: 25px;
+    line-height: 40px;
+}
+
+textarea {
+    resize: none;
+    height: 200px;
+    margin: 0 auto;
+    width: 200%;
+    transform: translateX(-100px);
+    font-size: 20px;
+
+  }
+
+  form{
+    display: flex;
+    flex-direction:column; /* Apila los elementos verticalmente */
+    gap: 10px; /* Añade espacio entre los elementos */
+    font-size: 20px;
+    width: 200px; /* Ajusta el ancho del formulario */
+    margin: 0 auto; /* Centra el formulario en la página */
+    align-content: center;
+}
+
+input{
+    font-size: 20px;
+}
+
+button{
+    border: 1px solid #ffffff; 
+    padding: 8px 16px; 
+    border-radius: 5px;
+    font-size: 22px; 
+    cursor: pointer; 
+}
