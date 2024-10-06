@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos!</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="./img/favicon-32x32.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>
+      <img
+        src="./img/android-chrome-192x192.png"
+        alt="Logo Revolution Radio"
+        id="Logo"
+      />
+      <h1>Academia Revolution Radio</h1>
+    </header>
+    <nav>
+      <a href="Index.html">Inicio</a>
+      <a href="#clases-de-canto">Clases de canto</a>
+      <a href="#clases-de-guitarra">Clases de Guitarra</a>
+      <a href="#clases-de-bateria">Clases de Bateria</a>
+      <a href="contacto.html">Contactanos</a>
+    </nav>
+    <main>
+      <div>
+        <h2>Complete el formulario porfavor</h2>
+        <form action="">
+          <label for="nombre-contacto">Ingrese su nombre/s</label>
+          <input type="text" id="nombre-contacto" />
+          <label for="apellido-contacto">Ingrese su apellido/s</label>
+          <input type="text" id="apellido-contacto" />
+          <label for="email-contacto">Ingrese su email</label>
+          <input type="email" id="email-contacto" />
+          <label for="telefono-contacto">Ingrese su telefono</label>
+          <input type="tel" id="telefono-contacto" />
+          <label for="fecha-de-nacimiento"
+            >Ingrese su fecha de nacimiento</label
+          >
+          <input type="date" id="fecha-de-nacimiento" />
+          <label for="asunto-contacto">Ingrese el asunto de su consulta</label>
+          <input type="text" id="asunto-contacto" />
+          <fieldset>
+            <legend>Seleccione como le gustaria ser contactado</legend>
+            <input
+              type="radio"
+              id="opciones-contacto-telefono"
+              name="opciones-contacto"
+              value="telefono"
+            />
+            <label for="opciones-contacto-telefono">Telefono</label><br />
+            <input
+              type="radio"
+              id="opciones-contacto-whatsapp"
+              name="opciones-contacto"
+              value="Whatsapp"
+            />
+            <label for="opciones-contacto-whatsapp">Whatsapp</label><br />
+            <input
+              type="radio"
+              id="opciones-contacto-email"
+              name="opciones-contacto"
+              value="email"
+            />
+            <label for="opciones-contacto-email">Email</label>
+          </fieldset>
+          <fieldset>
+            <legend>En que disciplina/s esta interesado</legend>
+            <input
+              type="checkbox"
+              id="checkbox-clases-canto"
+              value="clase-de-canto"
+            />
+            <label for="checkbox-clases-canto">Clases de canto</label><br />
+            <input
+              type="checkbox"
+              id="checkbox-clases-guitarra"
+              value="clase-de-guitarra"
+            />
+            <label for="checkbox-clases-guitarra">Clases de guitarra</label
+            ><br />
+            <input
+              type="checkbox"
+              id="checkbox-clases-bateria"
+              value="clase-de-bateria"
+            />
+            <label for="checkbox-clases-bateria">Clases de bateria</label><br />
+          </fieldset>
+          <label for="mensaje-formulario">Dejenos su mensaje!</label>
+          <textarea
+            name="mensaje-formulario"
+            id="mensaje-formulario"
+          ></textarea>
+          <button type="submit">Enviar!</button>
+        </form>
+      </div>
+    </main>
+    <section id="redes-sociales">
+      <a href="https://instagram.com">
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios/50/instagram-new--v1.png"
+          alt="instagram-logo"
+        />Instagram
+      </a>
+      <a href="https://facebook.com">
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios/50/facebook-new.png"
+          alt="facebook-logo"
+        />Facebook
+      </a>
+      <a href="https://twitter.com">
+        <img
+          width="50"
+          height="50"
+          src="https://img.icons8.com/ios/50/x.png"
+          alt="x"
+        />X
+      </a>
+    </section>
+    <footer>
+      <p>Ariel Oliva</p>
+      <p>DNI: 42592078</p>
+      <p>Parical 1: Taller de Lenguaje y Marcado de Tecnologias Web</p>
+    </footer>
+  </body>
+</html>
