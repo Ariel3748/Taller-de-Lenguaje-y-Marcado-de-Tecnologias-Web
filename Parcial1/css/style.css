@@ -37,7 +37,7 @@ h2{
 
     font-family: Punk;
     
-    src: url(./font/Punk.ttf);
+    src: url(../font/Punk.ttf) format("truetype");
     
     }
 
@@ -50,12 +50,12 @@ nav{
 
 }
 
-nav a, .link-bajo {
+nav a, .link-bajo, #redes-sociales a {
     background-color: transparent;
     text-decoration: none;
 }
 
-nav a:hover, .link-bajo:hover, button:hover {
+nav a:hover, .link-bajo:hover, button:hover, #redes-sociales a:hover {
     color: #F48900; 
 }
 
@@ -175,11 +175,11 @@ textarea {
 
   form{
     display: flex;
-    flex-direction:column; /* Apila los elementos verticalmente */
-    gap: 10px; /* Añade espacio entre los elementos */
+    flex-direction:column; 
+    gap: 10px; 
     font-size: 20px;
-    width: 200px; /* Ajusta el ancho del formulario */
-    margin: 0 auto; /* Centra el formulario en la página */
+    width: 200px; 
+    margin: 0 auto; 
     align-content: center;
 }
 
