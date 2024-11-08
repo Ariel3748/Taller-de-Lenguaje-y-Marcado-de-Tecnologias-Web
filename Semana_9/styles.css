@@ -1,0 +1,44 @@
+*{
+    background-color: aliceblue;
+    font-family: agency fb;
+    
+}
+
+h1{
+    margin-left: 45vw;
+    font-size: 40PX;
+}
+
+.img-horizontal{
+    width: 300px;
+    height: 200px;
+}
+
+.img-vertical{
+    width: 250px;
+    height: 300px;
+}
+
+#obras{
+    background-color: aquamarine;
+}
+
+#obras-mas-importantes{
+    background-color: antiquewhite;
+}
+
+h2,p{
+    background-color: transparent;
+}
+
+
+#biografia {
+    height: 500px;
+    font-size: 22PX;
+    line-height: 35PX;
+}
+
+#img-biografia{
+    float: left;
+    padding-right: 25PX;
+}
