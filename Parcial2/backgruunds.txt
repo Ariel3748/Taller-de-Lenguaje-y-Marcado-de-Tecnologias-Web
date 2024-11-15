@@ -1,0 +1,15 @@
+#presentacion{
+    background-image: url(https://media.istockphoto.com/id/1609191084/vector/young-hiker-with-arms-raised-on-top-of-the-mountain.jpg?s=2048x2048&w=is&k=20&c=joWfmP8IzI4yXOvUuquBAblRhxDlAMKDVpeoBqgLbhc=);
+}
+
+#inicioDeAventura{
+    background-image: url(https://media.istockphoto.com/id/1502113553/vector/retro-pop-art-astronaut-team-in-space-poster-stock-illustration.jpg?s=2048x2048&w=is&k=20&c=4VTHCUl2-zhNqV7m8yDDKMSI-TRPDFCqLz5E8gw6VGM=);
+}
+
+#DentroDelaAventura{
+    background-image: url(https://media.istockphoto.com/id/1301399241/vector/the-lord-and-the-faithful-dragon.jpg?s=2048x2048&w=is&k=20&c=ibiuftk7o6HcFvOJaIA6Jx74G5iGNILEM-XjxZnxiMc=);
+}
+
+#PodesRepetir{
+    background-image: url(https://media.istockphoto.com/id/1250515454/vector/pirate-ship-in-a-bay-with-trunks-of-treasure.jpg?s=2048x2048&w=is&k=20&c=m-khPMPuXxkX_Rfwql-tn8gbVDVJxSnfixgQfCoY-Ws=);
+}

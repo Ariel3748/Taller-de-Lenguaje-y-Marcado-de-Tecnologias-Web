@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>YourWay</title>
+  </head>
+  <body>
+    <header>
+      <div id="logo">
+        <h1>YourWay</h1>
+        <p>Crea tu propia aventura</p>
+      </div>
+    </header>
+    <nav>
+      <div id="NavBar">
+        <ul>
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Librojuegos</a></li>
+          <li><a href="">Contacto</a></li>
+          <button id="iniciarSesionBtn" type="button" class="hover-btn">
+            Iniciar sesion
+          </button>
+          <dialog id="iniciarSesionDialog">
+            <h2>Inicia Sesion</h2>
+            <form id="FormInicioSesion">
+              <input
+                id="UsuarioForm"
+                type="text"
+                placeholder="Ingrese Usuario"
+              />
+              <input
+                id="PasswordForm"
+                type="password"
+                placeholder="Ingrese Contraseña"
+              />
+              <button class="hover-btn" id="BtnIngresar" type="submit">Ingresar</button>
+              <button class="hover-btn" id="BtnCerrarPopUp" type="button">Cerrar</button>
+            </form>
+          </dialog>
+        </ul>
+      </div>
+    </nav>
+    <main>
+      <div id="presentacion" class="div-inicio">
+        <h2>Elige una aventura</h2>
+        <p>
+          Selecciona una de nuestras historias y adentrate en el mundo que
+          elijas; hay para todos los gustos; desde historias realistas hasta
+          mundos fantasticos o ciencia ficcion futurista
+        </p>
+      </div>
+      <div id="inicioDeAventura" class="div-inicio">
+        <h2>Adentrate en el mundo</h2>
+        <p>Ponete en personaje y adentrate en la historia que hayas elegido</p>
+      </div>
+      <div id="DentroDelaAventura" class="div-inicio">
+        <h2>Toma tus decisiones</h2>
+        <p>
+          Toma las decisiones que consideres necesarias, podes optar por el
+          sigilo y la compasion o tomarte las cosas de forma mas violenta y
+          explosiva
+        </p>
+      </div>
+      <div id="PodesRepetir" class="div-inicio">
+        <h2>Podes volver a repetir</h2>
+        <p>
+          Si te gusto la historia podes volver a recorrerla pero tomando otros
+          caminos y decisiones a ver en que desemboca
+        </p>
+      </div>
+    </main>
+    <footer>
+      <div id="redes">
+        <a href=""></a><a href=""></a><a href=""></a><a href=""></a>
+      </div>
+      <div id="Alumno">
+        <p>Ariel Oliva</p>
+        <p>42592078</p>
+        <p>Segundo Parcial</p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
