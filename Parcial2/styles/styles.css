@@ -24,7 +24,7 @@
 }
 
 #PodesRepetir{
-    background-image: url();
+    background-image: url(../img/imagen\ \(4\).webp);
 }
 
 
@@ -130,8 +130,127 @@ dialog *{
 
 }
 
+#formularios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D4F6FF;
+
+}
+
+#formularios *{
+    margin: 2vh 0;
+}
+
+.FormABM{
+    display: flex;
+    flex-direction:column; 
+    gap: 10px; 
+    font-size: 20px;
+    width: 200px; 
+    margin: 10px auto; 
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    width: 35vw
+}
+
+#Justificacion{
+    resize: none;
+    margin: 0 auto;
+    height: 20vh;
+    font-size: 20px;
+}
 
 
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 500px;
+}
 
 
+.OpcionA{
+    grid-column: 2/3;
+    grid-row: 6/7;
 
+}
+
+.OpcionB{
+    grid-column: 8/9 ;
+    grid-row: 6/7;
+}
+
+
+.FormPuntaje{
+    display: flex;
+    flex-direction:column; 
+    gap: 10px; 
+    font-size: 20px;
+    width: 200px; 
+    margin: 10px auto; 
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+}
+
+.ImgJuegoLibro{
+    height: 90%;
+    width: 100%;
+    border-radius: 5px;
+    grid-column: 1/5;
+    grid-row: 1/6;
+
+}
+
+.librojuego{
+    background-color: #E6D9A2;
+    border: solid black 2px;
+    border-radius: 5px;
+    width: 90%;
+    height: 80%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(6, 100px);
+}
+
+.librojuego *{
+    margin: 10px;
+    
+}
+
+.mainLibroJuego{
+    background-color: #D4F6FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.presentacionDelCapitulo{
+    grid-column: 5/10;
+    grid-row: 1/2;
+    margin: 10px;
+    font-size: calc(30px + 1.2vw);
+    font-weight:bold;
+    text-align: center;
+
+}
+
+.HistoriaJuego{
+    grid-column: 5/10;
+    grid-row: 2/7;
+    font-size: calc(15px + .80vw);
+    padding: 10px;
+}
+
+
+#Alumno{
+    font-size: calc(15px + .50vw);    
+    text-align: end;
+}
